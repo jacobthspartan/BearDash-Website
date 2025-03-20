@@ -18,8 +18,6 @@ if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
 # Add a Help link to downgrade to 2.1
 st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
 
-# Add Indevelopment
-st.warning("This website is still in development! So you might see some errors!")
 
 #  Add requirments expander
 with st.expander(":rainbow[**Requirements**]"):
@@ -29,6 +27,9 @@ with st.expander(":rainbow[**Requirements**]"):
     st.write("- **A computer**")
 
 st.markdown("---")
+
+# Add Indevelopment
+st.warning("This website is still in development! So you might see some errors!")
 
 # Add changelog
 st.subheader("Changelog")
