@@ -5,8 +5,8 @@
 
 import streamlit as st
 
-# Add a Help link to downgrade to 2.1
-st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
+# Add Indevelopment
+st.warning("This website is still in development! So you might see some errors!")
 
 # Add Header and subheader (no shit)
 st.header("**Welcome to the official :rainbow[Beardash] website!**")
@@ -18,6 +18,8 @@ if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
         st.success("Click the link below to download!")
         st.markdown("[Download Beardash 6.0](https://drive.google.com/file/d/1FC5JdMbT-UfSP67sOE_htzmveuV2kCy0/view?pli=1)", unsafe_allow_html=True)
 
+# Add a Help link to downgrade to 2.1
+st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
 
 #  Add requirments expander
 with st.expander(":rainbow[**Requirements**]"):
@@ -28,8 +30,6 @@ with st.expander(":rainbow[**Requirements**]"):
 
 st.markdown("---")
 
-# Add Indevelopment
-st.warning("This website is still in development! So you might see some errors!")
 
 # Add changelog
 st.subheader("Changelog")
