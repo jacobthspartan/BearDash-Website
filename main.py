@@ -5,8 +5,6 @@
 
 import streamlit as st
 
-# Add Indevelopment
-st.warning("This website is still in development! So you might see some errors!")
 
 # Add Header and subheader (no shit)
 st.header("**Welcome to the official :rainbow[Beardash] website!**")
@@ -30,6 +28,8 @@ with st.expander(":rainbow[**Requirements**]"):
 
 st.markdown("---")
 
+# Add Indevelopment
+st.warning("This website is still in development! So you might see some errors!")
 
 # Add changelog
 st.subheader("Changelog")
