@@ -1,9 +1,15 @@
+# Welcome to the brain of the website alot of stuff that i dont fully understand LMAO
+# i do like this new website my old website for this was a fucking google site that looked like a 2 year old made it Ha Ha
+# If you get lost i added chapters for everything that i did if you even get lost it more for me honestly as sometimes i cant even see what the hell im doing
+# And without further ado my code!
+
 import streamlit as st
-# IM SO SORRY FOR ANY GEEKS WHO KNOW STREAMLIB LOOKING AT THIS CODE  IM NEW TO STRAEMLIT I TRIED :D
+
+# Add Header and subheader (no shit)
 st.header("**Welcome to the official :rainbow[Beardash] website!**")
 st.subheader("The *100% best texture pack for Geometry Dash!*")
 
-# Add a download button
+# Add the download button
 if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
     with st.spinner("Preparing your download..."):
         st.success("Click the link below to download!")
@@ -12,9 +18,10 @@ if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
 # Add a Help link to downgrade to 2.1
 st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
 
-# Add Indevlement
+# Add Indevelopment
 st.warning("This website is still in development! So you might see some errors!")
-#  Requrments
+
+#  Add requirments expander
 with st.expander(":rainbow[**Requirements**]"):
     st.write("- **Windows 7 or newer**")
     st.write("- **Geometry Dash 2.1**")
@@ -23,7 +30,7 @@ with st.expander(":rainbow[**Requirements**]"):
 
 st.markdown("---")
 
-# Add a changelog
+# Add changelog
 st.subheader("Changelog")
 st.markdown("### Version 6.0")
 st.markdown("- Added new icons")
@@ -82,10 +89,10 @@ if st.button("Submit"):
     st.success("Thank you for your feedback ❤️")
 
 
-#add Waring
+#add a super fucking long error for no reason but why not
 st.error("THIS ONLY WORKS ON GD 2.11 AND NOT ON GD 2.2 WE ARE A SMALL TEAM AND ARE WORKING ON IT I LOST MY HARD DRIVE SO I HAVE TO RECREATE THE WHOLE TEXTURE PACK THE TEXTERPACK FOR 2.2 I DONT KNOW WHEN IT WILL BE DONE BUT I WILL TRY TO MAKE IT AS FAST AS POSSIBLE")
 
-# Add a footer
+# Add the footer
 st.markdown(
     """
     ---
