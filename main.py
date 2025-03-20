@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header("**Welcome to the :rainbow[Beardash] website!**")
+st.header("**Welcome to the official :rainbow[Beardash] website!**")
 st.subheader("The *100% best texture pack for Geometry Dash!*")
 
 # Add a download button
