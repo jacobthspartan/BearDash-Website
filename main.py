@@ -12,7 +12,8 @@ if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
 # Add a Help link to downgrade to 2.1
 st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
 
-
+# Add Indevlement
+st.warning("This website is still in development! So you might see some errors!")
 #  Requrments
 with st.expander(":rainbow[**Requirements**]"):
     st.write("- **Windows 7 or newer**")
@@ -61,6 +62,8 @@ with st.expander("ℹ️ More Info"):
         Welcome to the new and improved BearDash website, now hosted on **Streamlit**! 
         Streamlit allows us to create interactive and user-friendly web apps with ease. 
         You can learn more about Streamlit [here](https://streamlit.io).
+
+        And ofc this is all for jokes this is not the best texture pack for gd but your already new that :)
 
         **BearDash** is a free texture pack for Geometry Dash, designed to enhance your gaming experience. 
         Please note that this project is still in development, and we appreciate your patience and support.
