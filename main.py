@@ -5,6 +5,9 @@
 
 import streamlit as st
 
+# Add a Help link to downgrade to 2.1
+st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
+
 # Add Header and subheader (no shit)
 st.header("**Welcome to the official :rainbow[Beardash] website!**")
 st.subheader("The *100% best texture pack for Geometry Dash!*")
@@ -14,9 +17,6 @@ if st.button("Download Beardash 6.0! (**GD 2.1 and Windows only!**)"):
     with st.spinner("Preparing your download..."):
         st.success("Click the link below to download!")
         st.markdown("[Download Beardash 6.0](https://drive.google.com/file/d/1FC5JdMbT-UfSP67sOE_htzmveuV2kCy0/view?pli=1)", unsafe_allow_html=True)
-
-# Add a Help link to downgrade to 2.1
-st.markdown("If you need help downgrading to Geometry Dash 2.1, click [here](https://www.youtube.com/watch?v=YaW_1kD-WKA).")
 
 
 #  Add requirments expander
