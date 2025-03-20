@@ -38,9 +38,9 @@ st.markdown("- Added new icons")
 st.markdown("- Added new backgrounds")
 
 st.markdown("### Version 5.0")
-st.markdown("add Edited menu")
-st.markdown("added faces")
-st.markdown("added old icons")
+st.markdown("- Edited menu")
+st.markdown("- added faces")
+st.markdown("- added old icons")
 
 st.markdown("---")
 
