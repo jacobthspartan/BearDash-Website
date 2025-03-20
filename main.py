@@ -1,5 +1,5 @@
 import streamlit as st
-
+# IM SO SORRY FOR ANY GEEKS WHO KNOW STREAMLIB LOOKING AT THIS CODE  IM NEW TO STRAEMLIT I TRIED :D
 st.header("**Welcome to the official :rainbow[Beardash] website!**")
 st.subheader("The *100% best texture pack for Geometry Dash!*")
 
